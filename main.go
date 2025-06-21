@@ -7,11 +7,10 @@ import (
 	"net/http"
 )
 
-// homeHandler serves requests for the root path "/"
 func homeHandler(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Received request for: %s from %s", r.URL.Path, r.RemoteAddr)
-	w.Header().Set("Content-Type","text/html")
-	fmt.Fprintf(w, "<h1>Thanks Lord</h1>", r.URL.Path)
+	w.Header().Set("Content-Type","text/html; charset=utf-8")
+	fmt.Fprintf(w, "<h1>Thanks Lord</h1>")
 }
 
 // apiHandler serves requests for the "/api" path
