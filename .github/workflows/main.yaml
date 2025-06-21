@@ -22,7 +22,7 @@ jobs:
           echo "Go application built successfully."
 
       - name: Deploy Go Executable to EC2 via SCP
-        uses: appleboy/scp-action@v0.1.7 # Action to securely copy files over SSH
+        uses: appleboy/scp-action@v0.1.7
         with:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USER }}
