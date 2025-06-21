@@ -11,10 +11,8 @@ import (
 // homeHandler serves requests for the root path "/"
 func homeHandler(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Received request for: %s from %s", r.URL.Path, r.RemoteAddr)
-	fmt.Fprintf(w, "Hello from your Go application named eduardoos_mf_ai_host running on port 7007!\n")
-	fmt.Fprintf(w, "You requested: %s\n", r.URL.Path)
-	// Example of reading an environment variable, useful for passing config from systemd/GitHub Actions
-	fmt.Fprintf(w, "Current time from Environment: %s\n", os.Getenv("CURRENT_TIME"))
+	w.Header().Set("Content-Type","text/html")
+	fmt.Fprintf(w, "<h1>Thanks Lord</h1>", r.URL.Path)
 }
 
 // apiHandler serves requests for the "/api" path
