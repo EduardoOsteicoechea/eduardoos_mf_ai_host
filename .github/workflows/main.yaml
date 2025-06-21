@@ -24,8 +24,8 @@ jobs:
       - name: Deploy Go Executable to EC2 via SCP
         uses: appleboy/scp-action@v0.1.7
         with:
-          host: ${{ secrets.EC2_HOST }}
-          username: ${{ secrets.EC2_USER }}
+          host: ${{ secrets.HOST_DNS }}
+          username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "eduardoos_mf_ai_host"
           target: "/var/www/html"
@@ -34,15 +34,11 @@ jobs:
       - name: Manage Go Application Service and Nginx on EC2
         uses: appleboy/ssh-action@v0.1.10
         with:
-          host: ${{ secrets.EC2_HOST }}
-          username: ${{ secrets.EC2_USER }}
+          host: ${{ secrets.HOST_DNS }}
+          username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             echo "Stopping eduardoos_mf_ai_host service..."
-            # Note: We are still using 'my-go-app.service' name as defined in /etc/systemd/system/
-            # This is because the service name is independent of the binary name.
-            # You could choose to rename your service to 'eduardoos_mf_ai_host.service' on EC2 if you prefer,
-            # but then you'd update /etc/systemd/system/eduardoos_mf_ai_host.service accordingly.
             sudo systemctl stop eduardoos_mf_ai_host || true 
             
             echo "Starting eduardoos_mf_ai_host service..."
