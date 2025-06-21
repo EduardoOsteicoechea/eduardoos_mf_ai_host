@@ -10,10 +10,9 @@ import (
 func homeHandler(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Received request for: %s from %s", r.URL.Path, r.RemoteAddr)
 	w.Header().Set("Content-Type","text/html; charset=utf-8")
-	fmt.Fprintf(w, "<h1>Thanks Lord</h1>")
+	fmt.Fprintf(w, PageContent)
 }
 
-// apiHandler serves requests for the "/api" path
 func apiHandler(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Received API request for: %s from %s", r.URL.Path, r.RemoteAddr)
 	w.Header().Set("Content-Type", "application/json")
