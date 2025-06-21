@@ -35,7 +35,7 @@ jobs:
         uses: appleboy/ssh-action@v0.1.10
         with:
           host: ${{ secrets.HOST_DNS }}
-          username: ${{ secrets.USERNAME }}
+          username: ${{ secrets.USERNAME }} 
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             echo "Stopping eduardoos_mf_ai_host service..."
