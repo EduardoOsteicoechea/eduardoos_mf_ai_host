@@ -1,0 +1,53 @@
+name: Deploy to ec2
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.44'
+
+      - name: Build Go application
+        run: |
+          GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o eduardoos_mf_ai_host .
+          echo "Go application built successfully."
+
+      - name: Deploy Go Executable to EC2 via SCP
+        uses: appleboy/scp-action@v0.1.7 # Action to securely copy files over SSH
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: "eduardoos_mf_ai_host"
+          target: "/var/www/html"
+          strip_components: 0
+ 
+      - name: Manage Go Application Service and Nginx on EC2
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            echo "Stopping eduardoos_mf_ai_host service..."
+            # Note: We are still using 'my-go-app.service' name as defined in /etc/systemd/system/
+            # This is because the service name is independent of the binary name.
+            # You could choose to rename your service to 'eduardoos_mf_ai_host.service' on EC2 if you prefer,
+            # but then you'd update /etc/systemd/system/eduardoos_mf_ai_host.service accordingly.
+            sudo systemctl stop eduardoos_mf_ai_host || true 
+            
+            echo "Starting eduardoos_mf_ai_host service..."
+            sudo systemctl start eduardoos_mf_ai_host     
+            sudo systemctl status eduardoos_mf_ai_host
+            
+            echo "Reloading Nginx..."
+            sudo systemctl reload nginx 
