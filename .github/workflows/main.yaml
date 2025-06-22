@@ -21,6 +21,23 @@ jobs:
           GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o eduardoos_mf_ai_host .
           echo "Go application built successfully."
 
+      - name: Prepare static directory on EC2
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.HOST_DNS }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            echo "Creating /var/www/html/static directory if it doesn't exist..."
+            sudo mkdir -p /var/www/html/static
+            echo "Setting permissions for /var/www/html/static..."
+            sudo chown -R ${{ secrets.USERNAME }}:${{ secrets.USERNAME }} /var/www/html/static
+            sudo chmod -R 755 /var/www/html/static # Read, write, execute for owner; read, execute for others
+            # If you need broader write permissions for a web server user (e.g., www-data), adjust accordingly
+            # sudo chown -R ${{ secrets.USERNAME }}:www-data /var/www/html/static
+            # sudo chmod -R 775 /var/www/html/static # Read, write, execute for owner and group; read, execute for others
+            echo "Directory /var/www/html/static prepared."
+
       - name: Deploy Go Executable to EC2 via SCP
         uses: appleboy/scp-action@v0.1.7
         with:
@@ -29,6 +46,16 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "eduardoos_mf_ai_host"
           target: "/var/www/html"
+          strip_components: 0
+
+      - name: Deploy static files to EC2 via SCP
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.HOST_DNS }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: "static/"
+          target: "/var/www/html/"
           strip_components: 0
  
       - name: Manage Go Application Service and Nginx on EC2
