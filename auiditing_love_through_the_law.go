@@ -19,12 +19,12 @@ const auiditing_love_through_the_law = `
 				Aunque el nuevo testamento abroga la ley de Moisés por completo para los creyentes, por otra parte nos enseña que debemos continuar usándola de una manera particular.
 			</p>
 			<div class="rticle_section_idea_justification_items_container">
-				<ul>
+				<ol>
 					<li>
 						<span>Rom.7.4-12</span>
 						<span>La Ley, especialmente los diez mandamientos, está abrogada.</span>
 					</li>
-				</ul>			
+				</ol>			
 			</div>
 		</div>
 
