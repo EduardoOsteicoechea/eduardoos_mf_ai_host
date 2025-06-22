@@ -39,18 +39,17 @@
 .article_section_idea_justification_items_container > ol {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .article_section_idea_justification_items_container > ol > li {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: .5rem;
 }
 
 .article_section_idea_justification_items_container > ol > li > * {
   display: flex;
   align-items: center;
   width: fit-content;
-  border: solid 1px var(--cmf);
 }
