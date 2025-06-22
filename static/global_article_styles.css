@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   gap: 1.35rem;
+  max-width: 575px;
+  margin: 0 auto;
 }
 
 
