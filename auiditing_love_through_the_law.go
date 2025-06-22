@@ -22,7 +22,7 @@ const auiditing_love_through_the_law = `
 				Esta manera es cumplir la Ley de Cristo.
 			</p>
 			<p class="article_section_idea">
-				Ley de Cristo es la enseñanza de Cristo, entregada a los apóstoles y redactada bajo la dirección del Espíritu Santo en el Nuevo Testamento, especialmente en las epístolas.
+				Ley de Cristo es la enseñanza de Cristo, entregada a los apóstoles, y redactada bajo la dirección del Espíritu Santo en el Nuevo Testamento, especialmente en las epístolas.
 			</p>
 			<p class="article_section_idea">
 				Digo "especialmente en las epístolas", porque los Evangelios y el libro de Hechos son "narrativa bíblica".
@@ -52,7 +52,7 @@ const auiditing_love_through_the_law = `
 				Las epístolas interpretan cómo debemos aplicar los Evangelios, Hechos, y el Antiguo Testamento en nuestra época.
 			</p>
 			<p class="article_section_idea">
-				Por esto, las epístolas son la perspectiva divina para interpretar toda la Biblia.
+				Por esto, las epístolas son la perspectiva de Dios para interpretar la Biblia.
 			</p>
 			<p class="article_section_idea">
 				Y las epístolas en particular, nos enseñan que aunque toda la ley de Moisés quedó abrogada, aún debemos cumplir TODOS sus mandamientos bajo la interpretación epistolar.
@@ -61,13 +61,13 @@ const auiditing_love_through_the_law = `
 				Esto no es una contradicción.
 			</p>
 			<p class="article_section_idea">
-				Aunque pareciera que estuviera diciendo que la ley quedó abrogada pero que aún debemos cumplirla, esta no es mi enseñanza.
+				Aunque pareciera que estuviera diciendo que aunque la ley quedó abrogada, aún debemos cumplirla, esta no es mi enseñanza.
 			</p>
 			<p class="article_section_idea">
 				Mi enseñanza es que ya no debemos cumplir la Ley de Moisés, sino la de Cristo, y que la ley de Cristo contiene todos los mandamientos de la Ley de Moisés reinterpretados a la luz del evangelio.
 			</p>
 			<p class="article_section_idea">
-				Esto es lo que significa estar bajo la ley de Cristo, cumplir toda la Biblia bajo la perspectiva de las epístolas.
+				Esto es lo que significa estar bajo la ley de Cristo; cumplir toda la Biblia bajo la perspectiva de las epístolas.
 			</p>
 			<p class="article_section_idea">
 				Veamos el fundamento bíblico de estas declaraciones.
