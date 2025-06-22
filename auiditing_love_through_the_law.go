@@ -16,7 +16,28 @@ const auiditing_love_through_the_law = `
 
 		<div class="article_section_idea">
 			<p class="article_section_idea">
-				Aunque el nuevo testamento abroga la ley de Moisés por completo para los creyentes, por otra parte nos enseña que debemos continuar usándola de una manera particular.
+				Aunque el nuevo testamento abroga la ley de Moisés por completo para los creyentes, por otra parte nos enseña que debemos continuar usándola de una manera en particular.
+			</p>
+			<p class="article_section_idea">
+				Esta manera es cumpliendo la Ley de Cristo.
+			</p>
+			<p class="article_section_idea">
+				Ley de Cristo es la enseñanza de Cristo, que fue entregada a los apóstoles e inpirada escrituralmente en el Nuevo Testamento, especialmente en las epístolas.
+			</p>
+			<p class="article_section_idea">
+				Digo \"especialmente en las epístolas\", porque los Evangelios y el libro de Hechos son en buena parte \"narrativa\", es decir, su intención no es decir que hagamos lo mismo que se dijo en la narración (por ejemplo, \"Judas se ahorco\"), sino más bien darnos a conocer la historia del evangelio.
+			</p>
+			<p class="article_section_idea">
+				Las epístolas por su parte, aplican los mandamientos de la ley de Cristo a las iglesias, representando una forma concreta y práctica de visualizar cómo se aplica la Ley de Cristo en nuestra época eclesiástica.
+			</p>
+			<p class="article_section_idea">
+				Por esto, las epístolas resultan el filtro a través del cual debemos interpretar los Evangelios, el libro de Hechos, y todo el Antiguo Testamento.
+			</p>
+			<p class="article_section_idea">
+				Y las epístolas en particular, nos enseñan por una parte que toda la ley de Moisés quedó abrogada, y por otra parte nos enseñan que aún debemos continuar usando la ley de una forma muy específica.
+			</p>
+			<p class="article_section_idea">
+				Esta forma específica es cumpliendo TODOS sus mandamientos bajo la interpretación epistolar.
 			</p>
 			<div class="article_section_idea_justification_items_container">
 				<ol>
