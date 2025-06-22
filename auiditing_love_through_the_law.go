@@ -28,25 +28,34 @@ const auiditing_love_through_the_law = `
 				Digo "especialmente en las epístolas", porque los Evangelios y el libro de Hechos son "narrativa".
 			</p>
 			<p class="article_section_idea">
-				Es decir, su intención no es decir que hagamos lo mismo que se dijo en la narración, por ejemplo, los evangelios no indican que imitemos el pasaje que dice "Judas se ahorco". El propósito de las narrativas es principalmente darnos a conocer la historia del evangelio.
+				Es decir, su intención no indicar que lo que se dijo en la narración. Por ejemplo, los evangelios no indican que imitemos el pasaje que dice "Judas se ahorco". El propósito de las narrativas es principalmente dar a conocer la historia del evangelio.
 			</p>
 			<p class="article_section_idea">
-				Esto no quiere decir que las narrativas carecen de mandamientos. Esta clarificación señala que solo debemos seguir los mandamientos de las narrativas bajo la perspectiva epistolar.
+				Esto no quiere decir que las narrativas carecen de mandamientos. Solo quiero decir con esto que debemos seguir los mandamientos de las narrativas bajo la perspectiva epistolar.
 			</p>
 			<p class="article_section_idea">
-				Las epístolas del Nuevo Testamento por su parte, aplican los mandamientos de la ley de Cristo a las iglesias, representando una forma concreta y práctica de visualizar cómo se debe aplicar la Ley de Cristo en nuestra época eclesiástica.
+				Las epístolas por su parte, aplican los mandamientos de la ley de Cristo a las iglesias, representando una forma concreta de aplicar la Ley de Cristo en nuestra época eclesiástica.
 			</p>
 			<p class="article_section_idea">
-				Por esto, las epístolas son el filtro divino para interpretar los Evangelios, el libro de Hechos, y todo el Antiguo Testamento.
+				Las epístolas interpretan cómo debemos vivir tanto los Evangelios y Hechos, como el Antiguo Testamento.
 			</p>
 			<p class="article_section_idea">
-				Y en particular las epístolas, nos enseñan que aunque toda la ley de Moisés quedó abrogada, aún debemos continuar usando la ley de una forma muy específica.
+				Por esto, las epístolas son el filtro divino para interpretar toda la Biblia.
 			</p>
 			<p class="article_section_idea">
-				Esta forma específica es cumpliendo TODOS sus mandamientos bajo la interpretación epistolar.
+				Y estas epístolas en particular, nos enseñan que aunque toda la ley de Moisés quedó abrogada, aún debemos cumplir TODOS sus mandamientos bajo la interpretación epistolar.
 			</p>
 			<p class="article_section_idea">
-				Esto es lo que significa estar bajo la ley de Cristo.
+				Esto no es una contradicción.
+			</p>
+			<p class="article_section_idea">
+				Aunque verdaderamente pareciera que estuviéramos diciendo que la ley quedó abrogada pero que aún debemos cumplirla, esta no es la enseñanza que estoy comunicando.
+			</p>
+			<p class="article_section_idea">
+				Lo que estoy comunicando es que ya no debemos cumplir la Ley de Moisés, sino la de Cristo, y estoy aclarando que la ley de Cristo contiene todos los mandamientos epistolares, que a su vez contiene una reinterpretación de todos los mandamientos del Antiguo Testamento a la luz del evangelio.
+			</p>
+			<p class="article_section_idea">
+				Esto es lo que significa estar bajo la ley de Cristo. Debemos cumplir toda la Biblia bajo la perspectiva de las epístolas.
 			</p>
 			<div class="article_section_idea_justification_items_container">
 				<ol>
