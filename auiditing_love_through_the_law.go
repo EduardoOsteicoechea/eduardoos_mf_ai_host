@@ -61,21 +61,46 @@ const auiditing_love_through_the_law = `
 					<li>
 						<span>El amor espiritual no es la emocionalidad humana, sino el cumplimiento de los mandamientos.</span>
 						<span>1.Jn.5.16-17</span>
-					</li>
-					<li>
-						<span>El amor espiritual no es la emocionalidad humana, sino el cumplimiento de los mandamientos.</span>
-						<span>1.Jn.5.16-17</span>
 						<span>1.Jn.2.4-6</span>
 						<span>Jn.14.21</span>
+					</li>
+					<li>
+						<span>Cumplir la ley a través de la perspectiva de las epístolas es amar.</span>
+						<span>Mat.22.34-40</span>
+						<span>Rom.13.8-10</span>
+						<span>1.Tim.1.9-11</span>
+						<span>1.Jn.3.1-6</span>
+					</li>
+					<li>
+						<span>Quebrantar la ley a través de la perspectiva de las epístolas es vivir fuera del amor.</span>
+						<span>1.Jn.5.1-5</span>
+						<span>1.Tim.1.9-11</span>
+						<span>1.Jn.3.1-6</span>
 					</li>
 				</ol>			
 			</div>
 		</div>
 	</section>
-	
-	<h2>
-		Examinemos el amor con los 10 mandamientos
-	</h2>
+
+
+	<section>
+		<h2>
+			Examinemos nuestro amor a través de los 10 mandamientos
+		</h2>
+		<div class="article_section_idea">
+			<p class="article_section_idea">
+				Por cuanto cumplir la ley a través de las epístolas es amar, cumplir los diez mandamientos a través de las epístolas es una manera específica y concreta de amar.
+			</p>
+			<div class="article_section_idea_justification_items_container">
+				<ol>
+					<li>
+						<span>El amor es cumplir los mandamientos.</span>
+						<span>1.Jn.5.1-5</span>
+					</li>
+				</ol>			
+			</div>
+		</div>
+	</section>
 
 </article>
 
