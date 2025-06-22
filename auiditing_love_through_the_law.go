@@ -25,19 +25,25 @@ const auiditing_love_through_the_law = `
 				Ley de Cristo es la enseñanza de Cristo, que fue entregada a los apóstoles e inpirada escrituralmente en el Nuevo Testamento, especialmente en las epístolas.
 			</p>
 			<p class="article_section_idea">
-				Digo \"especialmente en las epístolas\", porque los Evangelios y el libro de Hechos son en buena parte \"narrativa\", es decir, su intención no es decir que hagamos lo mismo que se dijo en la narración (por ejemplo, \"Judas se ahorco\"), sino más bien darnos a conocer la historia del evangelio.
+				Digo "especialmente en las epístolas", porque los Evangelios y el libro de Hechos son en buena parte "narrativa", es decir, su intención no es decir que hagamos lo mismo que se dijo en la narración, por ejemplo, los evangelios no indican que imitemos el pasaje que dice "Judas se ahorco". El propósito de las narrativas es principalmente darnos a conocer la historia del evangelio.
 			</p>
 			<p class="article_section_idea">
-				Las epístolas por su parte, aplican los mandamientos de la ley de Cristo a las iglesias, representando una forma concreta y práctica de visualizar cómo se aplica la Ley de Cristo en nuestra época eclesiástica.
+				Esto no quiere decir que las narrativas carecen de mandamientos. Esta clarificación señala que solo debemos seguir los mandamientos de las narrativas bajo la perspectiva epistolar.
 			</p>
 			<p class="article_section_idea">
-				Por esto, las epístolas resultan el filtro a través del cual debemos interpretar los Evangelios, el libro de Hechos, y todo el Antiguo Testamento.
+				Las epístolas del Nuevo Testamento por su parte, aplican los mandamientos de la ley de Cristo a las iglesias, representando una forma concreta y práctica de visualizar cómo se debe aplicar la Ley de Cristo en nuestra época eclesiástica.
 			</p>
 			<p class="article_section_idea">
-				Y las epístolas en particular, nos enseñan por una parte que toda la ley de Moisés quedó abrogada, y por otra parte nos enseñan que aún debemos continuar usando la ley de una forma muy específica.
+				Por esto, las epístolas son el filtro divino para interpretar los Evangelios, el libro de Hechos, y todo el Antiguo Testamento.
+			</p>
+			<p class="article_section_idea">
+				Y en particular las epístolas, nos enseñan que aunque toda la ley de Moisés quedó abrogada, aún debemos continuar usando la ley de una forma muy específica.
 			</p>
 			<p class="article_section_idea">
 				Esta forma específica es cumpliendo TODOS sus mandamientos bajo la interpretación epistolar.
+			</p>
+			<p class="article_section_idea">
+				Esto es lo que significa estar bajo la ley de Cristo.
 			</p>
 			<div class="article_section_idea_justification_items_container">
 				<ol>
@@ -57,6 +63,7 @@ const auiditing_love_through_the_law = `
 						<span class="article_section_idea_justification_items_container_biblical_reference">1.Tim.5.17-18</span>
 						<span class="article_section_idea_justification_items_container_biblical_reference">1.Cor.8.13-15</span>
 						<span class="article_section_idea_justification_items_container_biblical_reference">1.Ped.1.13.17</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">Mat.5.17-21</span>
 					</li>
 				</ol>			
 			</div>
