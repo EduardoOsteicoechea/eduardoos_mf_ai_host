@@ -14,9 +14,11 @@ const PageTop = `
 const PageBody = `
 		</head>
 		<body>
+		<main>
 `
 
 const PageBottom = `
+			</main>
 		</body>
 	</html>
 `
