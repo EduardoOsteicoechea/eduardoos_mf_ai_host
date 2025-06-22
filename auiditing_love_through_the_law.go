@@ -24,6 +24,18 @@ const auiditing_love_through_the_law = `
 						<span>Rom.7.4-12</span>
 						<span>La Ley, especialmente los diez mandamientos, está abrogada.</span>
 					</li>
+					<li>
+						<span>Rom.7.4-12</span>
+						<span>Estamos bajo la ley de Cristo.</span>
+					</li>
+					<li>
+						<span>Rom.7.4-12</span>
+						<span>La ley de Cristo involucra cumplir todos los mandamientos de la ley interpretándolos a través de las enseñanzas y procedimiento de las epístolas.</span>
+					</li>
+					<li>
+						<span>Rom.7.4-12</span>
+						<span>Vivir en contra de la ley de Cristo, es vivir fuera del amor.</span>
+					</li>
 				</ol>			
 			</div>
 		</div>
