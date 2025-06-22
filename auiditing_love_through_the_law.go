@@ -3,6 +3,8 @@ package main
 
 const auiditing_love_through_the_law = `
 
+<article class="article">
+
 	<h1>
 		Auditando el amor a través de la ley
 	</h1>
@@ -19,6 +21,7 @@ const auiditing_love_through_the_law = `
 		Examinemos el amor con los 10 mandamientos
 	</h2>
 
+</article>
 
 
 
