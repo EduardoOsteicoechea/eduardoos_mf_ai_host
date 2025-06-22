@@ -4,6 +4,17 @@
   gap: 1.35rem;
 }
 
-.article_heading{
 
+.article > h1{
+  font-size: 2rem;
+}
+
+.article > h2{
+  font-size: 1.5rem;
+}
+.article > p{
+  font-size: 1.5rem;
+}
+.article > p{
+  font-size: 1rem;
 }

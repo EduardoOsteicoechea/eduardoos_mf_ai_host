@@ -5,7 +5,7 @@ const auiditing_love_through_the_law = `
 
 <article class="article">
 
-	<h1>
+	<h1 class="article_main_heading">
 		Auditando el amor a través de la ley
 	</h1>
 	
