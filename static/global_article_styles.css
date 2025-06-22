@@ -1,7 +1,7 @@
 .article{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   max-width: 575px;
   margin: 0 auto;
 }

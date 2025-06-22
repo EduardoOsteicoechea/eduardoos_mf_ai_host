@@ -22,20 +22,20 @@ const auiditing_love_through_the_law = `
 				<ol>
 					<li>
 						<span>La Ley, especialmente los diez mandamientos, está abrogada.</span>
-						<span>Rom.7.4-12</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">Rom.7.4-12</span>
 					</li>
 					<li>
 						<span>Estamos bajo la ley de Cristo.</span>
-						<span>1.Cor.9.19-22</span>
-						<span>Gal.6.1-2</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Cor.9.19-22</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">Gal.6.1-2</span>
 					</li>
 					<li>
 						<span>La ley de Cristo involucra cumplir todos los mandamientos de la ley interpretándolos a través de las enseñanzas y procedimiento de las epístolas.</span>
-						<span>1.Tim.1.3-11</span>
-						<span>1.Jn.3.1-6</span>
-						<span>1.Tim.5.17-18</span>
-						<span>1.Cor.8.13-15</span>
-						<span>1.Ped.1.13.17</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Tim.1.3-11</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Jn.3.1-6</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Tim.5.17-18</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Cor.8.13-15</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Ped.1.13.17</span>
 					</li>
 				</ol>			
 			</div>
@@ -56,26 +56,26 @@ const auiditing_love_through_the_law = `
 				<ol>
 					<li>
 						<span>El amor es cumplir los mandamientos.</span>
-						<span>1.Jn.5.1-5</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Jn.5.1-5</span>
 					</li>
 					<li>
 						<span>El amor espiritual no es la emocionalidad humana, sino el cumplimiento de los mandamientos.</span>
-						<span>1.Jn.5.16-17</span>
-						<span>1.Jn.2.4-6</span>
-						<span>Jn.14.21</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Jn.5.16-17</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Jn.2.4-6</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">Jn.14.21</span>
 					</li>
 					<li>
 						<span>Cumplir la ley a través de la perspectiva de las epístolas es amar.</span>
-						<span>Mat.22.34-40</span>
-						<span>Rom.13.8-10</span>
-						<span>1.Tim.1.9-11</span>
-						<span>1.Jn.3.1-6</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">Mat.22.34-40</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">Rom.13.8-10</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Tim.1.9-11</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Jn.3.1-6</span>
 					</li>
 					<li>
 						<span>Quebrantar la ley a través de la perspectiva de las epístolas es vivir fuera del amor.</span>
-						<span>1.Jn.5.1-5</span>
-						<span>1.Tim.1.9-11</span>
-						<span>1.Jn.3.1-6</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Jn.5.1-5</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Tim.1.9-11</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Jn.3.1-6</span>
 					</li>
 				</ol>			
 			</div>
@@ -91,11 +91,26 @@ const auiditing_love_through_the_law = `
 			<p class="article_section_idea">
 				Por cuanto cumplir la ley a través de las epístolas es amar, cumplir los diez mandamientos a través de las epístolas es una manera específica y concreta de amar.
 			</p>
+			<p class="article_section_idea">
+				De igual manera, incumplir la ley desde la perspectiva de las epístolas es vivir fuera del amor.
+			</p>
+			<p class="article_section_idea">
+				Por consiguiente, examinar los manadamientos de la ley desde la perspectiva de las epístolas nos permite evaluar si verdaderamente vivimos el amor espiritual.
+			</p>
+			<p class="article_section_idea">
+				Sin estos ejemplos concretos, es imposible definir qué es amor de manera objetiva.
+			</p>
+			<p class="article_section_idea">
+				Pero gracias a la Escritura, gracias a la verdadera interpretación de la misma, podemos conocer el amor de manera objetiva.
+			</p>
+			<p class="article_section_idea">
+				Procedamos pues a examinar nuestro amor a través de la ley.
+			</p>
 			<div class="article_section_idea_justification_items_container">
 				<ol>
 					<li>
 						<span>El amor es cumplir los mandamientos.</span>
-						<span>1.Jn.5.1-5</span>
+						<span class="article_section_idea_justification_items_container_biblical_reference">1.Jn.5.1-5</span>
 					</li>
 				</ol>			
 			</div>
