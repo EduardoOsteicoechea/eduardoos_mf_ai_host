@@ -14,9 +14,11 @@ const auiditing_love_through_the_law = `
 		La ley está vigente a través de la ley de Cristo
 		</h2>
 
-		<p class="article_section_idea">
-			Aunque el nuevo testamento abroga la ley de Moisés por completo para los creyentes, por otra parte nos enseña que debemos continuar usándola de una manera particular.
-			<div class="idea_justification_items_container">
+		<div class="article_section_idea">
+			<p class="article_section_idea">
+				Aunque el nuevo testamento abroga la ley de Moisés por completo para los creyentes, por otra parte nos enseña que debemos continuar usándola de una manera particular.
+			</p>
+			<div class="rticle_section_idea_justification_items_container">
 				<ul>
 					<li>
 						<span>Rom.7.4-12</span>
@@ -24,7 +26,8 @@ const auiditing_love_through_the_law = `
 					</li>
 				</ul>			
 			</div>
-		</p>
+		</div>
+
 	</section>
 	
 	<h2>
