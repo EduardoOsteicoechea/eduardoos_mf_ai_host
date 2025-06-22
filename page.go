@@ -10,6 +10,7 @@ const PageTop = `
 		<meta name="author" content="Eduardo Osteicoechea">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="static/global_styles.css">
+		<link rel="stylesheet" href="static/global_article_styles.css">
 `
 const PageBody = `
 		</head>
