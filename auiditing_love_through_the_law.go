@@ -110,22 +110,16 @@ const auiditing_love_through_the_law = `
 		</h2>
 		<div class="article_section_idea">
 			<p class="article_section_idea">
-				Por cuanto cumplir la ley a través de las epístolas es amar, cumplir los diez mandamientos a través de las epístolas es una manera específica y concreta de amar.
+				Por cuanto cumplir la ley a través de las epístolas es amar, cumplir los diez mandamientos de esta forma amar específica y concretamente.
 			</p>
 			<p class="article_section_idea">
 				De igual manera, incumplir la ley desde la perspectiva de las epístolas es vivir fuera del amor.
 			</p>
 			<p class="article_section_idea">
-				Por consiguiente, examinar los manadamientos de la ley desde la perspectiva de las epístolas nos permite evaluar si verdaderamente vivimos el amor espiritual.
+				Por consiguiente, los 10 manadamientos, vistos a través de las epístolas nos permiten evaluar si verdaderamente amamos.
 			</p>
 			<p class="article_section_idea">
-				Sin estos ejemplos concretos, es imposible definir qué es amor de manera objetiva.
-			</p>
-			<p class="article_section_idea">
-				Pero gracias a la Escritura, gracias a la verdadera interpretación de la misma, podemos conocer el amor de manera objetiva.
-			</p>
-			<p class="article_section_idea">
-				Procedamos pues a examinar nuestro amor a través de la ley.
+				Sin estos ejemplos concretos, el amor sería subjetivo, y sería imposible definir realmente qué es amar.
 			</p>
 			<div class="article_section_idea_justification_items_container">
 				<ol>
