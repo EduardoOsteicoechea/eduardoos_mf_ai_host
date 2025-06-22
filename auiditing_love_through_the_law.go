@@ -19,7 +19,7 @@ const auiditing_love_through_the_law = `
 				Aunque el nuevo testamento abroga la ley de Moisés por completo para los creyentes, por otra parte nos enseña que debemos continuar usándola de una manera en particular.
 			</p>
 			<p class="article_section_idea">
-				Esta manera es cumpliendo la Ley de Cristo.
+				Esta manera es cumplir la Ley de Cristo.
 			</p>
 			<p class="article_section_idea">
 				Ley de Cristo es la enseñanza de Cristo, que fue entregada a los apóstoles e inpirada escrituralmente en el Nuevo Testamento, especialmente en las epístolas.
@@ -117,16 +117,16 @@ const auiditing_love_through_the_law = `
 		</h2>
 		<div class="article_section_idea">
 			<p class="article_section_idea">
-				Por cuanto cumplir la ley a través de las epístolas es amar, cumplir los diez mandamientos de esta forma amar específica y concretamente.
+				Por cuanto cumplir la ley a través de las epístolas es amar, cumplir los diez mandamientos de esta forma es amar específica y concretamente.
 			</p>
 			<p class="article_section_idea">
 				De igual manera, incumplir la ley desde la perspectiva de las epístolas es vivir fuera del amor.
 			</p>
 			<p class="article_section_idea">
-				Por consiguiente, los 10 manadamientos, vistos a través de las epístolas nos permiten evaluar si verdaderamente amamos.
+				Por consiguiente, los 10 manadamientos vistos a través de las epístolas nos permiten evaluar si verdaderamente amamos.
 			</p>
 			<p class="article_section_idea">
-				Sin estos ejemplos concretos, el amor sería subjetivo, y sería imposible definir realmente qué es amar.
+				Sin estos ejemplos concretos, el amor sería subjetivo e imposible definir.
 			</p>
 			<div class="article_section_idea_justification_items_container">
 				<ol>
