@@ -22,10 +22,13 @@ const auiditing_love_through_the_law = `
 				Esta manera es cumplir la Ley de Cristo.
 			</p>
 			<p class="article_section_idea">
-				Ley de Cristo es la enseñanza de Cristo, que fue entregada a los apóstoles e inpirada escrituralmente en el Nuevo Testamento, especialmente en las epístolas.
+				Ley de Cristo es la enseñanza de Cristo, entregada a los apóstoles y comunicada bajo la dirección del Espíritu Santo en el Nuevo Testamento, especialmente en las epístolas.
 			</p>
 			<p class="article_section_idea">
-				Digo "especialmente en las epístolas", porque los Evangelios y el libro de Hechos son en buena parte "narrativa", es decir, su intención no es decir que hagamos lo mismo que se dijo en la narración, por ejemplo, los evangelios no indican que imitemos el pasaje que dice "Judas se ahorco". El propósito de las narrativas es principalmente darnos a conocer la historia del evangelio.
+				Digo "especialmente en las epístolas", porque los Evangelios y el libro de Hechos son "narrativa".
+			</p>
+			<p class="article_section_idea">
+				Es decir, su intención no es decir que hagamos lo mismo que se dijo en la narración, por ejemplo, los evangelios no indican que imitemos el pasaje que dice "Judas se ahorco". El propósito de las narrativas es principalmente darnos a conocer la historia del evangelio.
 			</p>
 			<p class="article_section_idea">
 				Esto no quiere decir que las narrativas carecen de mandamientos. Esta clarificación señala que solo debemos seguir los mandamientos de las narrativas bajo la perspectiva epistolar.
