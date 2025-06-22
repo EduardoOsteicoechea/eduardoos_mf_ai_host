@@ -1,11 +1,10 @@
 .article{
   display: flex;
   flex-direction: column;
-  gap: 1.35rem;
+  gap: 2rem;
   max-width: 575px;
   margin: 0 auto;
 }
-
 
 .article > h1{
   font-size: 2rem;
@@ -14,9 +13,13 @@
 .article > h2{
   font-size: 1.5rem;
 }
-.article > p{
-  font-size: 1.5rem;
-}
+
 .article > p{
   font-size: 1rem;
+}
+
+.article > section{
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
 }
