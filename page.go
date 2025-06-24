@@ -12,6 +12,7 @@ const PageTop = `
 		<link rel="stylesheet" href="static/global_styles.css">
 		<link rel="stylesheet" href="static/global_article_styles.css">
 		<link rel="stylesheet" href="static/skip_to_content.css">
+		<link rel="stylesheet" href="static/loading_screen.css">
 `
 const PageBody = `
 		</head>

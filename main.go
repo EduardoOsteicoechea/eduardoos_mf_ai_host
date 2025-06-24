@@ -9,14 +9,14 @@ import (
 
 func homeHandler(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Received request for: %s from %s", r.URL.Path, r.RemoteAddr)
-	w.Header().Set("Content-Type","text/html; charset=utf-8")
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	// fmt.Fprintf(w, PageTop + PageBody + auiditing_love_through_the_law + PageBottom)
 	fmt.Fprint(w, todo_page_view(PageTop, PageBody, PageBottom))
 }
 
 func todoHandler(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Received request for: %s from %s", r.URL.Path, r.RemoteAddr)
-	w.Header().Set("Content-Type","text/html; charset=utf-8")
+	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	fmt.Fprint(w, todo_page_view(PageTop, PageBody, PageBottom))
 }
 
@@ -27,6 +27,10 @@ func apiHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	// mux := http.NewServeMux()
+	// fs := http.FileServer(http.Dir("./static"))
+	// mux.Handle("/static/", http.StripPrefix("/static/", fs))
+
 	// Register handlers for different routes
 	http.HandleFunc("/", homeHandler)
 	http.HandleFunc("/api", apiHandler)
