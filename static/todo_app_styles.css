@@ -47,10 +47,18 @@
   background: var(--cmg_1);
 }
 
+/*TASK ITEM*/
+/*TASK ITEM*/
+/*TASK ITEM*/
+/*TASK ITEM*/
+/*TASK ITEM*/
+/*TASK ITEM*/
+/*TASK ITEM*/
+
 .new_task_container{
   display: flex;
   align-items: center;
-  padding: 0px;
+  padding: 0px 10px;
   width: 100%;
   overflow: hidden;
   background: 60px;
@@ -66,8 +74,8 @@
   background: rgb(29, 189, 29);
   color: white;
   font-size: 12px;
-  width: 15%;
-  height: 100%;
+  width: 25px;
+  width: 25px;
   border-radius: 0;
 }
 
@@ -75,8 +83,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
-  height: 100%;
+  width: 25px;
+  width: 25px;
   border-radius: 0;
 }
 .new_task_item_checkbox_container_checked{
@@ -115,8 +123,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
-  height: 100%;
+  width: 25px;
+  height: 25px;
   background: red;
   color: var(--cmb);
   font-size: 12px;
