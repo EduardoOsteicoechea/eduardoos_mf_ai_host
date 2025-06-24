@@ -9,6 +9,11 @@ import (
 func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 	current_time := time.Now()
 	formatted_date := current_time.Format("2006-01-02")
+
+	const page_styles string = `
+		<link rel="stylesheet" href="static/todo_app_styles.css">
+	`
+	
 	var todo_view_content string = fmt.Sprintf(`
 	<div class="todo_app_outer_container">
 		<h1 class="todo_app_title">Todo App</h1>
@@ -92,9 +97,7 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 	</script>
 	`, formatted_date)
 
-	const page_styles string = `
-		<link rel="stylesheet" href="static/todo_app_styles.css">
-	`
 	todo_view := pageTop + page_styles + pageBody + todo_view_content + pageBottom
+	
 	return todo_view
 }
