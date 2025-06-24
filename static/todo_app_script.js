@@ -12,10 +12,10 @@ todo_app_add_task_button.addEventListener("click", () => {
   if (todo_app_add_task_input.value === "") {
     alert("Add a value to the task")
     return
-  }  
+  }
   let new_task_text = todo_app_add_task_input.value.trim()
   const now = new Date()
-  const task_time_formatted = now.toLocaleString()  
+  const task_time_formatted = now.toLocaleString()
   generated_tasks_record = [...generated_tasks_record, [new_task_text, task_time_formatted]]
   regenerate_todo_list()
   todo_app_add_task_input.focus()
@@ -51,6 +51,29 @@ function task_markup(new_task_index, current_task_data) {
   const new_task_item_number = document.createElement("span")
   new_task_item_number.textContent = new_task_index + 1
   new_task_item_number.className = "new_task_item_number"
+
+  const new_task_item_checbox_input = document.createElement("button")
+  new_task_item_checbox_input.className = "new_task_item_checbox_input"
+
+  const new_task_item_checbox_container = document.createElement("button")
+  new_task_item_checbox_container.innerHTML = "X"
+  new_task_item_checbox_container.addEventListener("click", () => {
+    new_task_item_checbox_input.cheked = !new_task_item_checbox_input.cheked
+    if (new_task_item_checbox_input.cheked) {
+      toggle_class_names(
+        new_task_item_checbox_container,
+        "new_task_item_checbox_container_checked",
+        "new_task_item_checbox_container_uncheked",
+      )
+    } else {
+      toggle_class_names(
+        new_task_item_checbox_container,
+        "new_task_item_checbox_container_uncheked",
+        "new_task_item_checbox_container_checked",
+      )
+    }
+  })
+  new_task_item_checbox_container.className = "new_task_item_checbox_container"
 
   const new_task_data_items_container = document.createElement("div")
   new_task_data_items_container.className = "new_task_data_items_container"
