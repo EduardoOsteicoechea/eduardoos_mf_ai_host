@@ -31,7 +31,6 @@
   padding: 5px 10px;
 }
 .todo_app_ordered_list{
-  padding: 10px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -61,8 +60,10 @@
   display: flex;
   flex-direction: column;
   gap: 10px;  
+  width: 100%;
 }
 .new_task_text{
+  width: 100%;
 }
 
 .new_task_date_and_delete_button_container{

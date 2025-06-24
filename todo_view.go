@@ -36,10 +36,13 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 			</button>
 		</div>
 		
+		<h2 class="Pending Tasks_heading">Pending Tasks</h2>
+		
 		<ol 
 		id="todo_app_ordered_list" 
 		class="todo_app_ordered_list"
 		>
+
 		</ol>
 	</div>
 	
