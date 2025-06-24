@@ -52,11 +52,11 @@ function task_markup(new_task_index, current_task_data) {
   new_task_item_number.textContent = new_task_index + 1
   new_task_item_number.className = "new_task_item_number"
 
-  const new_task_item_checkbox_input = document.createElement("button")
+  const new_task_item_checkbox_input = document.createElement("input")
   new_task_item_checkbox_input.className = "new_task_item_checkbox_input"
   new_task_item_checkbox_input.setAttribute("type","checkbox")
 
-  const new_task_item_checkbox_container = document.createElement("button")
+  const new_task_item_checkbox_container = document.createElement("div")
   new_task_item_checkbox_container.className = "new_task_item_checkbox_container"
 
   new_task_item_checkbox_input.addEventListener("change", () => {

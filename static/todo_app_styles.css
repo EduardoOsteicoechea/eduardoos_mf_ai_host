@@ -1,5 +1,5 @@
 .todo_app_outer_container{
-  padding: 10px 20px;
+  padding: 20px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 .todo_app_title{
-  
+  text-align: center;
 }
 .todo_app_date{
   
@@ -17,9 +17,11 @@
 .todo_app_input_controls_container{
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
   background: var(--cmg_2);
   padding: 10px;
+  width: 100%;
 }
 .todo_app_add_task_input{
   height: 80px;
@@ -30,7 +32,6 @@
 .todo_app_add_task_button{
   background: var(--cmf);
   color: var(--cmb);
-  margin-left: auto;
   display: flex;
   align-items: center;
   padding: 10px 20px;
@@ -81,7 +82,7 @@
   background: rgb(0, 220, 0);
 }
 .new_task_item_checkbox_container_unchecked{
-  background: var(--cmg_4);
+  background: var(--cmg_3);
 }
 
 .new_task_item_checkbox_input{
