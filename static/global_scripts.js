@@ -1,5 +1,4 @@
 const loading_screen_outer_container = document.getElementById("loading_screen_outer_container")
-loading_screen_outer_container.style.opacity = 1
 
 function show_loading_screen() {
   toggle_class_names(
