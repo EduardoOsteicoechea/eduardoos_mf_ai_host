@@ -19,9 +19,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px 20px;
   width: 100%;
   gap: 10px;
+  margin-bottom: 10px;
 }
 .todo_app_add_task_input{
   height: 80px;
@@ -54,7 +54,7 @@
   padding: 0px;
   width: 100%;
   overflow: hidden;
-  background: var(--cmb);
+  background: var(--cmg_2);
 }
 
 .new_task_item_number{
@@ -76,7 +76,6 @@
   width: 15%;
   height: 100%;
   border-radius: 0;
-  background: var(--cmg_3);
 }
 .new_task_item_checkbox_container_checked{
   background: rgb(0, 220, 0);
