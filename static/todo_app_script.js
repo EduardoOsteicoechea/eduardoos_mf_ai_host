@@ -52,31 +52,29 @@ function task_markup(new_task_index, current_task_data) {
   new_task_item_number.textContent = new_task_index + 1
   new_task_item_number.className = "new_task_item_number"
 
-  const new_task_item_checbox_input = document.createElement("button")
-  new_task_item_checbox_input.className = "new_task_item_checbox_input"
-  new_task_item_checbox_input.setAttribute("type","checkbox")
+  const new_task_item_checkbox_input = document.createElement("button")
+  new_task_item_checkbox_input.className = "new_task_item_checkbox_input"
+  new_task_item_checkbox_input.setAttribute("type","checkbox")
 
-  const new_task_item_checbox_container = document.createElement("button")
-  new_task_item_checbox_container.innerHTML = "X"
-  new_task_item_checbox_container.addEventListener("click", () => {
-    new_task_item_checbox_input.cheked = !new_task_item_checbox_input.cheked
-    if (new_task_item_checbox_input.cheked) {
+  const new_task_item_checkbox_container = document.createElement("button")
+  new_task_item_checkbox_container.addEventListener("click", () => {
+    new_task_item_checkbox_input.cheked = !new_task_item_checkbox_input.cheked
+    if (new_task_item_checkbox_input.cheked) {
       toggle_class_names(
-        new_task_item_checbox_container,
-        "new_task_item_checbox_container_checked",
-        "new_task_item_checbox_container_uncheked",
+        new_task_item_checkbox_container,
+        "new_task_item_checkbox_container_checked",
+        "new_task_item_checkbox_container_uncheked",
       )
     } else {
       toggle_class_names(
-        new_task_item_checbox_container,
-        "new_task_item_checbox_container_uncheked",
-        "new_task_item_checbox_container_checked",
+        new_task_item_checkbox_container,
+        "new_task_item_checkbox_container_uncheked",
+        "new_task_item_checkbox_container_checked",
       )
     }
   })
-  new_task_item_checbox_container.className = "new_task_item_checbox_container"
-
-  new_task_item_checbox_container.appendChild(new_task_item_checbox_input)
+  new_task_item_checkbox_container.className = "new_task_item_checkbox_container"
+  new_task_item_checkbox_container.appendChild(new_task_item_checkbox_input)
 
   const new_task_data_items_container = document.createElement("div")
   new_task_data_items_container.className = "new_task_data_items_container"
@@ -106,7 +104,7 @@ function task_markup(new_task_index, current_task_data) {
   new_task_data_items_container.appendChild(new_task_date_and_delete_button_container)
 
   new_task_container.appendChild(new_task_item_number)
-  new_task_container.appendChild(new_task_item_checbox_container)
+  new_task_container.appendChild(new_task_item_checkbox_container)
   new_task_container.appendChild(new_task_data_items_container)
   new_task_container.appendChild(new_task_delete_button)
 
