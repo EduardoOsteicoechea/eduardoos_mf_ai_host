@@ -1,0 +1,35 @@
+.todo_app_outer_container{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.todo_app_title{
+  
+}
+.todo_app_date{
+  
+}
+
+.todo_app_input_controls_container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.todo_app_add_task_input{
+  height: 100px;
+  width: 100%;
+  border: var(--cmf);
+  padding: 1rem;
+}
+.todo_app_add_task_button{
+  background: var(--cmf);
+  color: var(--cmb);
+}
+.todo_app_ordered_list{
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
