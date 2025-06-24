@@ -144,7 +144,7 @@ const auiditing_love_through_the_law = `
 		</h2>
 		<div class="article_section_idea">
 			<p class="article_section_idea">
-				Por cuanto cumplir la ley a través de las epístolas es amar, cumplir los diez mandamientos de esta forma es amar específica y concretamente.
+				Por cuanto cumplir la ley a través de las epístolas es amar, cumplir los diez mandamientos de manera epistolar es amar concretamente.
 			</p>
 			<p class="article_section_idea">
 				De igual manera, incumplir la ley desde la perspectiva de las epístolas es vivir fuera del amor.
