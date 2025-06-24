@@ -19,7 +19,7 @@
 .todo_app_add_task_input{
   height: 100px;
   width: 100%;
-  border: var(--cmf);
+  border: solid 1px var(--cmf);
   padding: 1rem;
 }
 .todo_app_add_task_button{
@@ -32,4 +32,22 @@
   flex-direction: column;
   gap: 15px;
   
+}
+
+.new_task_container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  border: solid 1px var(--cmf);
+  padding: 15px;
+}
+.new_task_text{
+}
+.new_task_time{
+  font-size: 12px;
+}
+.new_task_delete_button{
+  background: red;
+  color: #fff;
+  font-size: 12px;
 }

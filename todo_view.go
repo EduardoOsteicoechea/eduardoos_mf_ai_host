@@ -45,19 +45,24 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 
 		todo_app_add_task_button.addEventListener("click",()=>{
 			const new_task_container = document.createElement("li")
+			new_task_container.className = "new_task_container"
+
 			const new_task_text = document.createElement("p")
 			new_task_text.innerHTML = todo_app_add_task_input.value
+			new_task_text.className = "new_task_text"
 			
 			const new_task_time = document.createElement("span")
 			const now = new Date()
     	const task_time_formatted = now.toLocaleString()
     	new_task_time.textContent = task_time_formatted
+			new_task_time.className = "new_task_time"
 
 			const new_task_delete_button = document.createElement("button")
 			new_task_delete_button.innerHTML = "X"
 			new_task_delete_button.addEventListener("click",()=>{
 				new_task_container.remove()
 			})
+			new_task_delete_button.className = "new_task_delete_button"
 
 			new_task_container.appendChild(new_task_text)
 			new_task_container.appendChild(new_task_time)
