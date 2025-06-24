@@ -62,6 +62,7 @@
     box-sizing: border-box;
     border: none;
     position: relative;
+    border-radius: var(--global_border_radius_01);
 }
 
 html {
@@ -100,6 +101,7 @@ ul {
         --footerHeight: 100px;
         --homeChatHeight: 400px;
         --br1: 9px;
+        --global_border_radius_01: 5px;
     }
 
 
