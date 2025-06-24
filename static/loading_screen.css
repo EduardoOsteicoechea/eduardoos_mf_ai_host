@@ -16,7 +16,7 @@
   opacity: 0;
 }
 .loading_screen_outer_container_visible{
-  opacity: 0;
+  opacity: 1;
 }
 .loading_screen_outer_container_loading_text{
   font-size: 15px;
