@@ -24,6 +24,7 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 		const todo_app_ordered_list = document.getElementById("todo_app_ordered_list")
 		const todo_app_add_task_input = document.getElementById("todo_app_add_task_input")
 		const todo_app_add_task_button = document.getElementById("todo_app_add_task_button")
+
 		todo_app_add_task_button.addEventListener("click",()=>{
 			const new_task_container = document.createElement("li")
 			const new_task_text = document.createElement("p")
@@ -43,6 +44,8 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 			new_task_container.appendChild(new_task_text)
 			new_task_container.appendChild(new_task_time)
 			new_task_container.appendChild(new_task_delete_button)
+
+			todo_app_ordered_list.appendChild(new_task_container)
 		})
 	</script>
 	`,formatted_date)
