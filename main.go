@@ -26,10 +26,17 @@ func apiHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, `{"message": "This is an API response from eduardoos_mf_ai_host!", "path": "%s"}`+"\n", r.URL.Path)
 }
 
+// func configureStaticFiles(mux *http.ServeMux) {
+// 	staticDir := "./static"
+// 	fs := http.FileServer(http.Dir(staticDir))
+// 	mux.Handle("/static/", http.StripPrefix("/static/", fs))
+
+// 	fmt.Printf("Serving static files from '%s' under the '/static/' URL path.\n", staticDir)
+// }
+
 func main() {
 	// mux := http.NewServeMux()
-	// fs := http.FileServer(http.Dir("./static"))
-	// mux.Handle("/static/", http.StripPrefix("/static/", fs))
+	// configureStaticFiles(mux)
 
 	// Register handlers for different routes
 	http.HandleFunc("/", homeHandler)
