@@ -9,6 +9,7 @@ const PageTop = `
 		<meta name="description" content="t3.medium">
 		<meta name="author" content="Eduardo Osteicoechea">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="static/favicon.ico">
 		<link rel="stylesheet" href="static/global_styles.css">
 		<link rel="stylesheet" href="static/global_article_styles.css">
 		<link rel="stylesheet" href="static/skip_to_content.css">

@@ -1,8 +1,1 @@
-
-comment this lines for AWS
-	mux := http.NewServeMux()
-	fs := http.FileServer(http.Dir("./static"))
-	mux.Handle("/static/", http.StripPrefix("/static/", fs))
-
-
 $env:GOOS = "windows";  $env:GOARCH = "amd64";  go build -ldflags="-s -w" -o my_go_app.exe; .\my_go_app.exe
