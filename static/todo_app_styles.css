@@ -70,7 +70,6 @@
   display: flex;
   align-items: center;
   width: 100%;
-  border: solid 1px var(--cmf);
 }
 .new_task_time{
   font-size: 12px;
