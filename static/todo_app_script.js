@@ -57,8 +57,9 @@ function task_markup(new_task_index, current_task_data) {
   new_task_item_checkbox_input.setAttribute("type","checkbox")
 
   const new_task_item_checkbox_container = document.createElement("button")
-  new_task_item_checkbox_container.addEventListener("click", () => {
-    new_task_item_checkbox_input.cheked = !new_task_item_checkbox_input.cheked
+  new_task_item_checkbox_container.className = "new_task_item_checkbox_container"
+
+  new_task_item_checkbox_input.addEventListener("change", () => {
     if (new_task_item_checkbox_input.cheked) {
       toggle_class_names(
         new_task_item_checkbox_container,
@@ -73,7 +74,6 @@ function task_markup(new_task_index, current_task_data) {
       )
     }
   })
-  new_task_item_checkbox_container.className = "new_task_item_checkbox_container"
   new_task_item_checkbox_container.appendChild(new_task_item_checkbox_input)
 
   const new_task_data_items_container = document.createElement("div")

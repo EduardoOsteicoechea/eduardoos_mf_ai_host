@@ -16,7 +16,7 @@
 .todo_app_input_controls_container{
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
   background: var(--cmg_2);
   padding: 10px;
 }
@@ -78,7 +78,7 @@
   background: rgb(0, 220, 0);
 }
 .new_task_item_checkbox_container_unchecked{
-  background: var(--cmg_2);
+  background: var(--cmg_4);
 }
 
 .new_task_item_checkbox_input{
