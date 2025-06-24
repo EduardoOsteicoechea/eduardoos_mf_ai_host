@@ -63,12 +63,12 @@ function task_markup(new_task_index, current_task_data) {
       toggle_class_names(
         new_task_item_checkbox_container,
         "new_task_item_checkbox_container_checked",
-        "new_task_item_checkbox_container_uncheked",
+        "new_task_item_checkbox_container_unchecked",
       )
     } else {
       toggle_class_names(
         new_task_item_checkbox_container,
-        "new_task_item_checkbox_container_uncheked",
+        "new_task_item_checkbox_container_unchecked",
         "new_task_item_checkbox_container_checked",
       )
     }

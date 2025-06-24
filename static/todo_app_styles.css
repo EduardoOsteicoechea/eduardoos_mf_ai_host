@@ -76,14 +76,14 @@
 }
 .new_task_item_checkbox_container_checked{
   background: rgb(0, 220, 0);
-  height: 25px;
-  width: 25px;
 }
 .new_task_item_checkbox_container_unchecked{
   color: rgb(173, 233, 255);
 }
 
 .new_task_item_checkbox_input{
+  height: 25px;
+  width: 25px;
 }
 
 .new_task_data_items_container{
