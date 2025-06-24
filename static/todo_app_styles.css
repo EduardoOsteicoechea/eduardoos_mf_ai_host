@@ -30,8 +30,7 @@
   margin-left: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-  max-width: 35%;
+  padding: 5px 10px;
 }
 .todo_app_ordered_list{
   display: flex;
