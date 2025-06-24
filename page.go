@@ -18,10 +18,15 @@ const PageBody = `
 		</head>
 		<body>
 			<div 
-			id="loading_screen"
+			id="loading_screen_outer_container"
 			class="loading_screen_outer_container"
 			>
-				<p class="loading_screen_outer_container_loading_text">Loading...</p>
+				<p 
+				id="loading_screen_outer_container_loading_text"
+				class="loading_screen_outer_container_loading_text"
+				>
+					Loading...
+				</p>
 			</div>
 			
 			<a 
