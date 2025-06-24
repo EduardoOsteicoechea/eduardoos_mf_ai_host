@@ -1,11 +1,11 @@
-const loading_screen_script = document.getElementById("loading_screen_script")
-loading_screen_script.style.opacity = 1
+const loading_screen_outer_container = document.getElementById("loading_screen_outer_container")
+loading_screen_outer_container.style.opacity = 1
 
 function show_loading_screen(){
-  loading_screen_script.style.opacity = 1
+  loading_screen_outer_container.style.opacity = 1
 }
 function hide_loading_screen(){
-  loading_screen_script.style.opacity = 0
+  loading_screen_outer_container.style.opacity = 0
 }
 
 function setViewportHeight() {

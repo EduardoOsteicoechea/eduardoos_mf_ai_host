@@ -24,8 +24,6 @@ generate_ui_heights();
 
 regenerate_todo_list();
 
-hide_loading_screen();
-
 //////////////////////////
 //////////////////////////
 // METHODS
@@ -36,8 +34,8 @@ function generate_ui_heights() {
   const screen_height = window.visualViewport.height
   todo_app_outer_container.style.height = `${screen_height}px`
   todo_app_ordered_list.style.height = `${screen_height*.5}px`
-  todo_app_add_task_input.style.height = `${screen_height*15}px`
-  
+  todo_app_add_task_input.style.height = `${screen_height*.15}px`
+  hide_loading_screen()
 }
 
 function regenerate_todo_list() {
