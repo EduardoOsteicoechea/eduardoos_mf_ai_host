@@ -1,5 +1,6 @@
 const todo_app_outer_container = document.getElementById("todo_app_outer_container")
 const todo_app_title = document.getElementById("todo_app_title")
+const pending_tasks_heading = document.getElementById("pending_tasks_heading")
 const todo_app_ordered_list = document.getElementById("todo_app_ordered_list")
 const todo_app_add_task_heading = document.getElementById("todo_app_add_task_heading")
 const todo_app_input_controls_container = document.getElementById("todo_app_input_controls_container")
@@ -35,8 +36,16 @@ todo_app_add_task_input.focus()
 function generate_ui_heights() {
   const screen_height = window.visualViewport.height
   todo_app_outer_container.style.height = `${screen_height}px`
+
   todo_app_ordered_list.style.height = `${screen_height*.5}px`
   todo_app_add_task_input.style.height = `${screen_height*.15}px`
+
+  todo_app_title.style.height = `${screen_height*.125}px`
+  todo_app_add_task_button.style.height = `${screen_height*.125}px`
+
+  pending_tasks_heading.style.height = `${screen_height*.10}px`
+  todo_app_add_task_heading.style.height = `${screen_height*.10}px`
+
   hide_loading_screen()
 }
 
