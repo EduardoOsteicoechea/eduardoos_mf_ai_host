@@ -15,12 +15,13 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+  padding: 1rem;
 }
 .todo_app_add_task_input{
   height: 80px;
   width: 100%;
   border: solid 1px var(--cmf);
-  padding: 1rem;
+  padding: 10px;
 }
 .todo_app_add_task_button{
   background: var(--cmf);
@@ -35,7 +36,7 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  
+  border: solid 1px var(--cmf);
 }
 
 .new_task_container{
@@ -45,7 +46,9 @@
   padding: 10px;
 }
 .new_task_item_number{
-
+  background: green;
+  color: white;
+  padding: 10px;
 }
 .new_task_data_items_container{
   display: flex;
