@@ -1,5 +1,8 @@
-
+const todo_app_outer_container = document.getElementById("todo_app_outer_container")
+const todo_app_title = document.getElementById("todo_app_title")
 const todo_app_ordered_list = document.getElementById("todo_app_ordered_list")
+const todo_app_add_task_heading = document.getElementById("todo_app_add_task_heading")
+const todo_app_input_controls_container = document.getElementById("todo_app_input_controls_container")
 const todo_app_add_task_input = document.getElementById("todo_app_add_task_input")
 const todo_app_add_task_button = document.getElementById("todo_app_add_task_button")
 let generated_tasks_record = []
@@ -16,6 +19,26 @@ todo_app_add_task_button.addEventListener("click", () => {
   generated_tasks_record = [...generated_tasks_record, [new_task_text, task_time_formatted]]
   regenerate_todo_list()
 })
+
+generate_ui_heights();
+
+regenerate_todo_list();
+
+hide_loading_screen();
+
+//////////////////////////
+//////////////////////////
+// METHODS
+//////////////////////////
+//////////////////////////
+
+function generate_ui_heights() {
+  const screen_height = window.visualViewport.height
+  todo_app_outer_container.style.height = `${screen_height}px`
+  todo_app_ordered_list.style.height = `${screen_height*.5}px`
+  todo_app_add_task_input.style.height = `${screen_height*15}px`
+  
+}
 
 function regenerate_todo_list() {
   todo_app_ordered_list.innerHTML = ""

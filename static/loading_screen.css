@@ -1,0 +1,17 @@
+.loading_screen_outer_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100lvh;
+  width: 100dvw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  opacity: 1;
+  transition: opacity 3000ms ease;
+}
+.loading_screen_outer_container_loading_text{
+  font-size: 15px;
+  font-weight: 900;
+}

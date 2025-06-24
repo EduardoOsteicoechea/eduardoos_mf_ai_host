@@ -63,13 +63,20 @@
     border: none;
     position: relative;
 }
+
+html {
+  height: -webkit-fill-available;
+}
 body {
     max-width: 1440px !important;
     overflow-x: hidden;
     overflow-y: auto !important;
     margin: auto;
     border: none !important;
+    min-height: 100dvh;
+    min-height: -webkit-fill-available;
 }
+
 main{
   padding: 15px;
 }

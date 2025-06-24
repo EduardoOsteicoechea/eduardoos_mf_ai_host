@@ -1,0 +1,15 @@
+.skip_to_content_outer_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100dvw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9000;
+  padding: 10px;
+  overflow: hidden;
+}
+.skip_to_content_outer_container:focus{
+  height: 100px;
+}

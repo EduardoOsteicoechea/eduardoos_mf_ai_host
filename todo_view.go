@@ -10,28 +10,41 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 	`
 	
 	var todo_view_content string = `
-	<div class="todo_app_outer_container">
-		<h1 class="todo_app_title">Todo App</h1>
-		
-		<h2 class="Pending Tasks_heading">Pending Tasks</h2>
-		
+	<div
+	id="todo_app_outer_container"
+	class="todo_app_outer_container"
+	>
+		<h1
+		id="todo_app_title"
+		class="todo_app_title"
+		>
+			Todo App
+		</h1>		
+		<h2 
+		id="pending_tasks_heading"
+		class="pending_tasks_heading"
+		>
+			Pending Tasks
+		</h2>		
 		<ol 
 		id="todo_app_ordered_list" 
 		class="todo_app_ordered_list"
+		></ol>		
+		<h2 
+		id="todo_app_add_task_heading"
+		class="todo_app_add_task_heading"
 		>
-
-		</ol>		
-		
-		<h2 class="todo_app_date">Add a Task</h2>
-
+			Add a Task
+		</h2>
 		<div 
-		id="todo_app_input_controls_container" class="todo_app_input_controls_container"
+		id="todo_app_input_controls_container" 
+		class="todo_app_input_controls_container"
 		>
 			<textarea 
 			id="todo_app_add_task_input"  
 			class="todo_app_add_task_input"
-			></textarea>
-			
+			>
+			</textarea>			
 			<button 
 			id="todo_app_add_task_button"  
 			class="todo_app_add_task_button"
