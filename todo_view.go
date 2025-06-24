@@ -14,7 +14,7 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 		<link rel="stylesheet" href="static/todo_app_styles.css">
 	`
 	const page_javascript string = `
-		<script href="static/todo_app_script.js" defer></script>
+		<script src="static/todo_app_script.js" defer></script>
 	`
 	
 	var todo_view_content string = fmt.Sprintf(`
