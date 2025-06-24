@@ -76,10 +76,6 @@ body {
     min-height: 100dvh;
     min-height: -webkit-fill-available;
 }
-
-main{
-  padding: 15px;
-}
 button {
     cursor: pointer;
 }

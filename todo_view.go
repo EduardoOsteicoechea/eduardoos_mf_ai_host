@@ -19,17 +19,7 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 		class="todo_app_title"
 		>
 			Todo App
-		</h1>		
-		<h2 
-		id="pending_tasks_heading"
-		class="pending_tasks_heading"
-		>
-			Pending Tasks
-		</h2>		
-		<ol 
-		id="todo_app_ordered_list" 
-		class="todo_app_ordered_list"
-		></ol>		
+		</h1>	
 		<h2 
 		id="todo_app_add_task_heading"
 		class="todo_app_add_task_heading"
@@ -52,6 +42,16 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 				Add Task
 			</button>
 		</div>
+		<h2 
+		id="pending_tasks_heading"
+		class="pending_tasks_heading"
+		>
+			Pending Tasks
+		</h2>		
+		<ol 
+		id="todo_app_ordered_list" 
+		class="todo_app_ordered_list"
+		></ol>
 	</div>
 	`
 
