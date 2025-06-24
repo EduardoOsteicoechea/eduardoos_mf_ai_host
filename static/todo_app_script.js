@@ -106,6 +106,7 @@ function task_markup(new_task_index, current_task_data) {
   new_task_data_items_container.appendChild(new_task_date_and_delete_button_container)
 
   new_task_container.appendChild(new_task_item_number)
+  new_task_container.appendChild(new_task_item_checbox_container)
   new_task_container.appendChild(new_task_data_items_container)
   new_task_container.appendChild(new_task_delete_button)
 
