@@ -13,9 +13,11 @@
   background: var(--cmb);
 }
 .loading_screen_outer_container_hidden{
+  pointer-events: none;
   opacity: 0;
 }
 .loading_screen_outer_container_visible{
+  pointer-events: all;
   opacity: 1;
 }
 .loading_screen_outer_container_loading_text{
