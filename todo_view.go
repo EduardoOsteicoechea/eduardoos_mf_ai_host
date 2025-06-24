@@ -18,7 +18,7 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 		id="todo_app_title"
 		class="todo_app_title"
 		>
-			Todo App
+			Minimal Framework Todo App
 		</h1>	
 		<h2 
 		id="todo_app_add_task_heading"
