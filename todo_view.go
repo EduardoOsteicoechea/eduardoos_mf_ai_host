@@ -1,15 +1,7 @@
 // main.go
 package main
 
-import (
-	"fmt"
-	"time"
-)
-
 func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
-	current_time := time.Now()
-	formatted_date := current_time.Format("2006-01-02")
-
 	const page_styles string = `
 		<link rel="stylesheet" href="static/todo_app_styles.css">
 	`
@@ -17,7 +9,7 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 		<script src="static/todo_app_script.js" defer></script>
 	`
 	
-	var todo_view_content string = fmt.Sprintf(`
+	var todo_view_content string = `
 	<div class="todo_app_outer_container">
 		<h1 class="todo_app_title">Todo App</h1>
 		
@@ -28,11 +20,9 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 		class="todo_app_ordered_list"
 		>
 
-		</ol>
-
+		</ol>		
 		
-		
-		<h2 class="todo_app_date">%s</h2>
+		<h2 class="todo_app_date">Add a Task</h2>
 
 		<div 
 		id="todo_app_input_controls_container" class="todo_app_input_controls_container"
@@ -50,7 +40,7 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 			</button>
 		</div>
 	</div>
-	`, formatted_date)
+	`
 
 	todo_view := pageTop + page_styles + pageBody + todo_view_content + page_javascript + pageBottom
 
