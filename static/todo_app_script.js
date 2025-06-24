@@ -54,6 +54,7 @@ function task_markup(new_task_index, current_task_data) {
 
   const new_task_item_checbox_input = document.createElement("button")
   new_task_item_checbox_input.className = "new_task_item_checbox_input"
+  new_task_item_checbox_input.setAttribute("type","checkbox")
 
   const new_task_item_checbox_container = document.createElement("button")
   new_task_item_checbox_container.innerHTML = "X"
@@ -74,6 +75,8 @@ function task_markup(new_task_index, current_task_data) {
     }
   })
   new_task_item_checbox_container.className = "new_task_item_checbox_container"
+
+  new_task_item_checbox_container.appendChild(new_task_item_checbox_input)
 
   const new_task_data_items_container = document.createElement("div")
   new_task_data_items_container.className = "new_task_data_items_container"
