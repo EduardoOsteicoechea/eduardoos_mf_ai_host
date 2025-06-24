@@ -1,7 +1,7 @@
 // main.go
 package main
 
-const auiditing_love_through_the_law = `
+var auiditing_love_through_the_law string= `
 
 <article class="article">
 

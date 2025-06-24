@@ -50,7 +50,7 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 
 		todo_app_add_task_button.addEventListener("click",()=>
 		{
-			const todo_app_ordered_list_item_count = todo_app_ordered_list.children.length
+			const todo_app_ordered_list_item_count = todo_app_ordered_list.children.length + 1
 
 			const new_task_container = document.createElement("li")
 			new_task_container.className = "new_task_container"			
@@ -98,6 +98,6 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 	`, formatted_date)
 
 	todo_view := pageTop + page_styles + pageBody + todo_view_content + pageBottom
-	
+
 	return todo_view
 }
