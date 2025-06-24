@@ -30,7 +30,8 @@ const PageBody = `
 			
 			<a 
 			id="skip_to_content_element" 
-			id="skip_to_content_outer_container" href="#main"
+			class="skip_to_content_outer_container" 
+			href="#main"
 			>
 				Skip to content
 			</a>
