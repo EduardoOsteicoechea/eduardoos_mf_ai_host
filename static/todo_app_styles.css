@@ -45,7 +45,7 @@
   max-height: 350px;
   width: 100%;
   overflow-y: auto;
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .new_task_container{
@@ -78,10 +78,8 @@
   border-radius: 0;
 }
 .new_task_item_checkbox_container_checked{
-  background: rgb(0, 220, 0);
 }
 .new_task_item_checkbox_container_unchecked{
-  background: var(--cmg_3);
 }
 
 .new_task_item_checkbox_input{
