@@ -51,6 +51,9 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 			new_task_text.innerHTML = todo_app_add_task_input.value
 			new_task_text.className = "new_task_text"
 			
+			const new_task_date_and_delete_button_container = document.createElement("div")
+			new_task_date_and_delete_button_container.className = "new_task_date_and_delete_button_container"
+			
 			const new_task_time = document.createElement("span")
 			const now = new Date()
     	const task_time_formatted = now.toLocaleString()
@@ -65,9 +68,10 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 			new_task_delete_button.className = "new_task_delete_button"
 
 			new_task_container.appendChild(new_task_text)
-			new_task_container.appendChild(new_task_time)
-			new_task_container.appendChild(new_task_delete_button)
-
+			new_task_date_and_delete_button_container.appendChild(new_task_time)
+			new_task_date_and_delete_button_container.appendChild(new_task_delete_button)
+			new_task_container.appendChild(new_task_date_and_delete_button_container)
+			
 			todo_app_ordered_list.appendChild(new_task_container)
 		})
 	</script>
