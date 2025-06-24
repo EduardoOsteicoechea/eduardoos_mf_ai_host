@@ -12,7 +12,6 @@ const PageTop = `
 		<link rel="stylesheet" href="static/global_styles.css">
 		<link rel="stylesheet" href="static/global_article_styles.css">
 		<link rel="stylesheet" href="static/skip_to_content.css">
-		<script src="static/global_scripts.js"></script>
 `
 const PageBody = `
 		</head>
@@ -35,9 +34,15 @@ const PageBody = `
 			>
 				Skip to content
 			</a>
+
+			<script 
+			src="static/global_scripts.js"
+			>
+			</script>
 `
 
 const PageBottom = `
+
 		</body>
 	</html>
 `
