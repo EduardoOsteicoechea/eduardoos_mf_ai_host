@@ -55,7 +55,7 @@
   padding: 0px;
   width: 100%;
   overflow: hidden;
-  background: var(--cmg_2);
+  background: 60px;
 }
 
 .new_task_item_number{
