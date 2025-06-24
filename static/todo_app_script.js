@@ -11,18 +11,20 @@ todo_app_add_task_button.addEventListener("click", () => {
   if (todo_app_add_task_input.value === "") {
     alert("Add a value to the task")
     return
-  }
-  
+  }  
   let new_task_text = todo_app_add_task_input.value.trim()
   const now = new Date()
   const task_time_formatted = now.toLocaleString()  
   generated_tasks_record = [...generated_tasks_record, [new_task_text, task_time_formatted]]
   regenerate_todo_list()
+  todo_app_add_task_input.focus()
 })
 
-generate_ui_heights();
+generate_ui_heights()
 
-regenerate_todo_list();
+regenerate_todo_list()
+
+todo_app_add_task_input.focus()
 
 //////////////////////////
 //////////////////////////

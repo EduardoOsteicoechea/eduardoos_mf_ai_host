@@ -12,6 +12,12 @@
   transition: opacity 3000ms ease;
   background: var(--cmb);
 }
+.loading_screen_outer_container_hidden{
+  opacity: 0;
+}
+.loading_screen_outer_container_visible{
+  opacity: 0;
+}
 .loading_screen_outer_container_loading_text{
   font-size: 15px;
   font-weight: 900;
