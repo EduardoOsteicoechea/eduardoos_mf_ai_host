@@ -20,12 +20,6 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 		>
 			Minimal Framework Todo App
 		</h1>	
-		<h2 
-		id="todo_app_add_task_heading"
-		class="todo_app_add_task_heading"
-		>
-			Add a Task
-		</h2>
 		<div 
 		id="todo_app_input_controls_container" 
 		class="todo_app_input_controls_container"
@@ -41,13 +35,7 @@ func todo_page_view(pageTop string, pageBody string, pageBottom string) string {
 			>
 				Add Task
 			</button>
-		</div>
-		<h2 
-		id="pending_tasks_heading"
-		class="pending_tasks_heading"
-		>
-			Pending Tasks
-		</h2>		
+		</div>	
 		<ol 
 		id="todo_app_ordered_list" 
 		class="todo_app_ordered_list"

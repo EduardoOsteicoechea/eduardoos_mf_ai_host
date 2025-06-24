@@ -76,7 +76,6 @@
   height: 100%;
   border-radius: 0;
   background: var(--cmg_4);
-  pointer-events: none;
 }
 .new_task_item_checkbox_container_checked{
   background: rgb(0, 220, 0);
