@@ -90,7 +90,6 @@ func main() {
 
 		http.HandleFunc("/", homeHandler)
 		http.HandleFunc("/api", apiHandler)
-		http.HandleFunc("/todo", todoHandler)
 
 		// Define the port to listen on. This should match the Nginx proxy_pass port.
 		port := "7007"
