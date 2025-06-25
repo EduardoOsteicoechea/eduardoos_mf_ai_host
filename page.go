@@ -1,6 +1,10 @@
 // page.go
 package main
 
+import (
+	"strings"
+)
+
 const PageTop = `
 	<!DOCTYPE html>
 	<html land="en">
@@ -49,3 +53,12 @@ const PageBottom = `
 		</body>
 	</html>
 `
+
+func PrintPage(css_tags []string, javascript_tags []string, components_markup []string) string {
+	composed_css_tags := strings.Join(css_tags, "\n")
+	composed_js_tags := strings.Join(javascript_tags, "\n")
+	composed_component_markup := strings.Join(components_markup, "\n")
+	markup := PageTop + "\n" + composed_css_tags + "\n" + PageBody + "\n" + composed_component_markup + "\n" + composed_js_tags + "\n" + PageBottom
+
+	return markup
+}

@@ -1,1 +1,1 @@
-$env:GOOS = "windows";  $env:GOARCH = "amd64";  go build -ldflags="-s -w" -o my_go_app.exe; .\my_go_app.exe
+go generate ./...; $env:GOOS = "windows";  $env:GOARCH = "amd64";  go build -ldflags="-s -w" -o eduardoosminfrw.exe; .\eduardoosminfrw.exe;
